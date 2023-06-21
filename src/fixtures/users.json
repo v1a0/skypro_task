@@ -1,0 +1,35 @@
+[
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "username": "user_1",
+      "password": "pbkdf2_sha256$600000$oSsuo3HGdPGncVibFmVAe7$7HDA59mrQOqmfBimtaSeCfGeEZeRk3uCv3zGp0KXvYM="
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+      "username": "user_2",
+      "password": "pbkdf2_sha256$600000$UoI7dsG4Q07pLS4sE373ui$eWTEE1LtlKMPYX2fbTJcSzLkSt/qIW9lKXMgXavxukI="
+    }
+  },
+  {
+    "model": "resume.resume",
+    "pk": 1,
+    "fields": {
+      "owner": 1,
+      "status": "active",
+      "grade": "middle",
+      "specialty": "backend",
+      "salary": 200000,
+      "education":  "Harvard",
+      "experience": "Apple, Google, Amazon",
+      "portfolio": "https://example.com/resume",
+      "title": "Backend Developer 2023",
+      "phone": "+71337137713",
+      "email": "contact@mail.com"
+    }
+  }
+]
